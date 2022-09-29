@@ -1,0 +1,64 @@
+/* COMMON */
+img{
+    width: 100%;
+}
+
+:root{
+    /* Colors */
+    --new-releases: rgb(31 31 31);
+    --plus: rgb(190 188 187);
+    --now: rgb(23 30 58);
+    --footer: rgb(20 74 152);
+}
+
+/* Layout */
+section{
+    padding: 2.5em 0 2.5em 0;
+}
+/* HEADER */
+.ms-header-top img{
+    width: 80px;
+}
+
+/* MAIN */
+/* Jumbotron */
+#jumbotron{
+    margin-top: 5.4em;
+    color: white;
+    /* DEBUG */
+    background-color: lightcoral;
+}
+
+/* It takes */
+#it-takes{
+    color: white;
+    /* DEBUG */
+    background-color: lightcoral;
+
+}
+/* New releases */
+#releases{
+    color: white;
+    background-color: var(--new-releases);
+}
+/* Playstation plus */
+#playstationplus{
+    background-color: var(--plus);
+}
+section#playstationplus{
+    padding: 0;
+}
+/* PlayStation Now */
+#now{
+    color: white;
+    background-color: var(--now);
+}
+
+/* FOOTER */
+#info{
+    color: white;
+    background-color: var(--footer);
+}
+#info ul li{
+    list-style-type: none;
+}
