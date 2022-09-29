@@ -19,21 +19,26 @@ section{
 .ms-header-top img{
     width: 80px;
 }
-
+.images{
+    margin-left: .5em;
+    width: 30px;
+}
 /* MAIN */
 /* Jumbotron */
 #jumbotron{
-    margin-top: 5.4em;
+    margin-top: 6.5em;
     color: white;
-    /* DEBUG */
-    background-color: lightcoral;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
 }
 
 /* It takes */
 #it-takes{
     color: white;
-    /* DEBUG */
-    background-color: lightcoral;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
 
 }
 /* New releases */
@@ -48,12 +53,21 @@ section{
 section#playstationplus{
     padding: 0;
 }
+.btn-secondary{
+    background-color: rgb(217 218 220);
+    border-color: rgb(217 218 220);
+}
 /* PlayStation Now */
 #now{
     color: white;
     background-color: var(--now);
 }
-
+/* Social */
+.ms-wrapper{
+    padding-top: 2em;
+    width: 70%;
+    margin: 0 auto;
+}
 /* FOOTER */
 #info{
     color: white;
