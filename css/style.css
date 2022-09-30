@@ -46,9 +46,8 @@ section{
     background-size: cover;
 }
 /* Card */
-/* Prova hover */
 #card img:hover{
-    
+    transform: translateY(-10px);
 }
 /* It takes */
 #it-takes{
