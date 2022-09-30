@@ -1,6 +1,6 @@
 /* COMMON */
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 :root{
@@ -23,23 +23,49 @@ section{
     margin-left: .5em;
     width: 30px;
 }
+.nav-link{
+    color: black;
+}
+.dropdown-toggle::after{
+    border: 0;
+    font-size: .8em;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f078";
+    vertical-align: middle;
+    color:rgb(169 169 169);
+}
 /* MAIN */
 /* Jumbotron */
 #jumbotron{
-    margin-top: 6.5em;
     color: white;
+    margin-top: 6.5em;
+    padding-top: 10rem;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
 }
-
+/* Card */
+/* Prova hover */
+#card img:hover{
+    
+}
 /* It takes */
 #it-takes{
     color: white;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     background-size: cover;
-
+}
+/* Playstation 5 */
+.ms-op{
+    opacity: .4;
+}
+.ms-active:hover{
+    border-bottom: 3px solid blue;
+}
+.ms-op:hover{
+    opacity: 1.0;
 }
 /* New releases */
 #releases{
@@ -65,14 +91,24 @@ section#playstationplus{
 /* Social */
 .ms-wrapper{
     padding-top: 2em;
-    width: 70%;
+    max-width: 800px;
     margin: 0 auto;
 }
 /* FOOTER */
 #info{
-    color: white;
     background-color: var(--footer);
 }
 #info ul li{
     list-style-type: none;
+}
+.ms-footer-top img{
+    width: 90px;
+}
+.world p{
+    margin-top: 0;
+    margin-left: .3em;
+    margin-bottom: 0;
+}
+.world img{
+    width: 15px;
 }
